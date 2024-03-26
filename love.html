@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+        Author: Carlos Andres
+        Date:   2-7-2022
+        Filename: index.html
+     -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Valentine's Day!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #514283; /* Dark purple background */
+        color: #cac5ed; /* Light purple text color */
+        font-family: "Indie Flower", cursive; /* Handwriting-style font */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      h1 {
+        margin: 50px auto 10px; /* Add some space around the heading and center it horizontally */
+        text-align: center;
+        font-family: "Love Ya Like A Sister", cursive; /* Kuromi-themed font */
+        color: #e1ddf4; /* Light purple heading color */
+        text-shadow: 2px 2px 4px #514283; /* Add shadow to the heading */
+        opacity: 0.8;
+      }
+
+      .content {
+        flex: 1; /* Allow content to grow to fill remaining space */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px; /* Add margin to prevent content from sticking to the footer */
+        overflow-y: auto; /* Enable vertical scrollbar */
+        scrollbar-width: thin; /* Set the width of the scrollbar */
+        scrollbar-color: #8761b6 #514283; /* Set the color of the scrollbar */
+      }
+
+      .chalkboard {
+        position: relative;
+        width: 90%;
+        max-width: 600px; /* Limit maximum width of the chalkboard */
+        background: #8761b6; /* Light purple chalkboard background */
+        border: 8px solid #514283; /* Dark purple border */
+        padding: 20px;
+        text-align: center;
+      }
+
+      .date {
+        color: #cac5ed; /* Light purple date color */
+        text-align: right; /* Align date to the right */
+      }
+
+      .message {
+        margin: 20px 0; /* Add some space around the message */
+        font-family: "Sawarabi Gothic", sans-serif; /* Sato font for the message */
+      }
+
+      img {
+        width: 250px;
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%; /* Make the image circular */
+        border: 8px solid #514283; /* Dark purple border */
+      }
+
+      .btn {
+        margin-top: 20px; /* Add margin to the button */
+        padding: 10px 20px; /* Add some padding to the button */
+        border-radius: 20px; /* Make the button rounded */
+        background-color: #e1ddf4; /* Light purple button background */
+        color: #514283; /* Dark purple button text color */
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+      }
+
+      .btn:hover {
+        background-color: #cac5ed; /* Lighter purple background on hover */
+        color: #514283; /* Dark purple text color on hover */
+      }
+
+      .footer {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0; /* Add some padding to the footer */
+        background-color: #514283; /* Dark purple footer background */
+        color: #cac5ed; /* Light purple footer text color */
+        font-size: 14px; /* Increase font size */
+      }
+
+      .image {
+        margin-bottom: 20px; /* Add margin to the bottom of the image */
+      }
+
+      /* Customize scrollbar */
+      .content::-webkit-scrollbar {
+        width: 10px; /* Set the width of the scrollbar */
+      }
+
+      .content::-webkit-scrollbar-thumb {
+        background-color: #8761b6; /* Light purple thumb color */
+        border-radius: 10px; /* Rounded corners for the thumb */
+      }
+
+      .content::-webkit-scrollbar-track {
+        background-color: #514283; /* Dark purple track color */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, my silly goose.</h1>
+
+    <div class="content">
+      <div class="chalkboard">
+        <div class="date">
+          <h2>2024 25 March</h2>
+        </div>
+        <div class="message">
+          <h3>
+            I know browsing through this might be a bit overwhelming, but I
+            wanted to make something extra special this time around, just for
+            you. You truly deserve it more than anyone else. This website is a
+            fun project I've been tinkering with lately to show you how much I
+            love you. It might not be perfect (sorry if it's a bit glitchy), but
+            I coded it all by hand. We've always talked about putting in effort,
+            and this is me showing you how much I care about showing you the
+            effort and love I have for you. I hope you enjoy it and it at least
+            brings a nice and beautiful smile on your face! I LOVE YOU!!!!
+          </h3>
+        </div>
+        <div class="image">
+          <img src="/images/kuromi2.png" alt="Kuromi" />
+        </div>
+        <div class="btn-container">
+          <a href="you.html" class="btn">Click Me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        This is for personal use only. I do not claim any of these animations.
+      </p>
+    </div>
+  </body>
+</html>
